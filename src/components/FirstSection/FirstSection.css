@@ -1,0 +1,11 @@
+.hero_mid {
+    height: 70vh;
+    position: relative;
+    width: 100%;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.about {
+    h1 {
+        padding-bottom: 1rem;
+    }
+
+    p {
+        color: #777;
+        padding-bottom: 2rem;
+    }
+}

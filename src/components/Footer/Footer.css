@@ -1,0 +1,36 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 6rem;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+
+    .icons {
+        display: flex;
+    }
+}
+
+
+/* Wrapper controls background & size */
+.icon-wrapper {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+/* Icon size is forced */
+.social-icon {
+    width: 20px;
+    height: 20px;
+}

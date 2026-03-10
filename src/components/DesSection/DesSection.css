@@ -1,0 +1,48 @@
+.desSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+
+    .desText {
+        font-size: 1.1rem;
+        text-align: start;
+        width: 45%;
+
+        h2 {
+            padding-bottom: 1rem;
+        }
+
+        p {
+            color: #777;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    }
+
+    .images {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 50%;
+        z-index: -99;
+
+        img {
+            border-radius: 6px;
+            box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, .4);
+            height: 350px;
+            object-fit: cover;
+            width: 49%;
+
+            &:last-child {
+                position: absolute;
+                top: -10%;
+                right: 0;
+                /* transform: translateY(-16px); */
+            }
+
+        }
+    }
+
+
+}
