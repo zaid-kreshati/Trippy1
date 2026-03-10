@@ -9,17 +9,20 @@ import UserList from "../pages/UserList";
 import CreateUser from "../pages/CreateUser";
 import Service from "../pages/Service";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "about", element: <About /> },
+        { path: "contact", element: <Contact /> },
+        { path: "services", element: <Service /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Layout />,   
-    children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
-      { path: "contact", element: <Contact /> },
-      { path: "services", element: <Service /> },
-    ],
-  },
-],{
-  basename: "/Trippy1"
-});
+    basename: "/Trippy1",
+  }
+);
