@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div>
       <Hero
-        bgImage="/assets/img/hero1.jpg"
+        bgImage="/Trippy1/assets/img/hero1.jpg"
         title="your journey your story"
         subtitle="choose your favourite destination"
         btn="Travel Plan"

@@ -20,4 +20,6 @@ export const router = createBrowserRouter([
       { path: "services", element: <Service /> },
     ],
   },
-]);
+],{
+  basename: "/Trippy1"
+});

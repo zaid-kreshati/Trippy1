@@ -22,7 +22,7 @@ const aboutall = [
 const About = () => {
   return (
     <>
-      <FirstSection image="/assets/img//about.jpg" title="about us" />
+      <FirstSection image="/Trippy1/assets/img//about.jpg" title="about us" />
       <Container>
         {aboutall.map((item, index) => (
           <AboutText

@@ -6,7 +6,7 @@ import Container from "../components/layout/Container";
 const Service = () => {
   return (
     <>
-      <FirstSection image="/assets/img//service.jpg" title="Service" />
+      <FirstSection image="/Trippy1/assets/img//service.jpg" title="Service" />
       <Container>
         <Trips />
       </Container>

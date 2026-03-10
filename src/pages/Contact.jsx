@@ -5,7 +5,7 @@ import "../components/Contact/Contact.css";
 const Contact = () => {
   return (
     <>
-      <FirstSection image="/assets/img//contact.jpg" title="Contact US" />
+      <FirstSection image="/Trippy1/assets/img//contact.jpg" title="Contact US" />
 
       <Container>
         <div className="contact">
